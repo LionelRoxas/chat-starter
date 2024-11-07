@@ -6,7 +6,7 @@ import { CheckIcon, MessageCircleIcon, XIcon } from "lucide-react";
 import { Tooltip, TooltipTrigger } from "@/components/ui/tooltip";
 import { TooltipContent } from "@radix-ui/react-tooltip";
 import { cn } from "@/lib/utils";
-import React, { use } from "react";
+//import React, { use } from "react";
 
 export function PendingFriendsList() {
     const friends = useQuery(api.functions.friend.listPending);

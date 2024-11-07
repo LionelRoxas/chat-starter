@@ -43,10 +43,7 @@ export function DashboardSidebar() {
                 </SidebarGroupContent>
                 <SidebarGroup>
                     <SidebarGroupLabel>Direct Messages</SidebarGroupLabel>
-                     <SidebarGroupAction>
-                        <PlusIcon />
-                        <span className="sr-only">New Direct Message</span>
-                     </SidebarGroupAction>
+                     
                 </SidebarGroup>
             </SidebarGroup>
          </SidebarContent>
